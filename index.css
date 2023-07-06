@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-opstion{
+    background-color: rgb(34, 33, 33);
+    padding: 20px;
+    color: wheat;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.logo-pic{
+    width: 120px;
+}
+
+.menu4{
+    display: flex;
+    
+}
+
+.menu-dis{
+    margin-left: 10px;
+    padding-left: 5px;
+    font-size: 17px;
+
+    /* carsor nele carsor chang hobe */
+    cursor:pointer;
+}
+
+/* mouse jekhane nebo sekhane text er color change hobe */
+.menu-dis:hover{    
+    color: rgb(255, 60, 0);
+}
+.banner-img{
+    width: 300px;
+}
+
+.banner-ing{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 2px solid gray; */
+    align-items: center;
+    color: white;
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(10, 10, 10), rgb(58, 58, 58) );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.better{
+    font-size: 50px;
+    font-weight: bold;
+}
+.we{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button:hover{
+    color: black;
+}
+
+
+
+
+/* about-us */
+.section-img{
+    width: 300px;
+}
+
+.about-opstion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.butto{
+    padding: 10px 20px;
+    background-color: rebeccapurple;
+    color: white ;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.butto:hover{
+    color: red;
+}
+
+.lorem1{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.lorem2{
+    margin-bottom: 15px;
+}
